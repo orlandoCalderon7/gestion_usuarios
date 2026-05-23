@@ -20,31 +20,31 @@ Abrir en el navegador: `http://localhost:4200/`
 
 ## Estructura del proyecto
 
-# Creación del Proyecto y Módulos
+### Creación del Proyecto y Módulos
 
 La aplicación se organiza en módulos de características para mantener una separación clara de responsabilidades:
 AppModule: Módulo raíz que gestiona el enrutamiento principal.
 UsuariosModule: Encargado de la lógica de negocio de usuarios (Lista y Registro).
 AdminModule: Contiene el panel de control (Dashboard).
 
-# Generación de Componentes
+### Generación de Componentes
 
 Se crearon componentes específicos para cada funcionalidad:
 ListaUsuariosComponent: Visualización de datos en tablas.
 FormularioUsuariosComponent: Captura de nuevos registros.
 DashboardComponent: Vista administrativa general.
 
-# Configuración de Lazy Loading
+### Configuración de Lazy Loading
 
 Para mejorar la carga inicial, se implementó carga perezosa en app-routing.module.ts:
 
 ## Solución de Desafios Técnicos 
 
-# Compatibilidad de Caracteres (@)
+### Compatibilidad de Caracteres (@)
 
  Se implementaron entidades HTML (&#64;) para evitar errores de compilación con el nuevo motor de control de flujo de Angular 17.
 
-# Comunicación entre Componentes
+### Comunicación entre Componentes
 
 Se configuraron exports en los módulos para permitir la integración del formulario dentro de la vista de lista.
 
