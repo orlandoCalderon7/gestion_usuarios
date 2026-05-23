@@ -42,7 +42,7 @@ Para mejorar la carga inicial, se implementó carga perezosa en app-routing.modu
 
 ### Compatibilidad de Caracteres (@)
 
- Se implementaron entidades HTML ((&#64;)) para evitar errores de compilación con el nuevo motor de control de flujo de Angular 17.
+ Se implementaron entidades HTML &#64; para evitar errores de compilación con el nuevo motor de control de flujo de Angular 17.
 
 ### Comunicación entre Componentes
 
